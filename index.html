@@ -11,7 +11,7 @@
     <meta property="og:title" content="Raisincains Portfolio" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="2313" />
-    <meta property="og:image" content="https://raisincains.carrd.co/assets/images/card.jpg?v=b73cb10d" />
+    <meta property="og:image" content="https://raisincains.carrd.co/assets/images/card.jpg?v=7cef131d" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="800" />
@@ -182,8 +182,6 @@
       }
       #main > .inner > footer {
         margin-top: var(--spacing);
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
       }
       #main > .inner > * > * {
         margin-top: var(--spacing);
@@ -233,11 +231,6 @@
         margin-left: -50vw;
         right: auto;
       }
-      #main > .inner > footer > .full:last-child {
-        margin-bottom: -3rem !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
       #main > .inner > .active > .full:first-child {
         margin-top: -3rem !important;
         border-top-left-radius: inherit;
@@ -246,6 +239,13 @@
       #main > .inner > .active {
         border-top-left-radius: inherit;
         border-top-right-radius: inherit;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #main > .inner > .active > .full:last-child {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+        margin-bottom: -3rem !important;
       }
       body.is-instant #main, body.is-instant #main > .inner > *,body.is-instant #main > .inner > section > * {
         transition: none !important;
@@ -284,465 +284,6 @@
       .deferred.loading:before {
         opacity: 0.35;
         z-index: 0;
-      }
-      .container {
-        position: relative;
-      }
-      .container > .wrapper {
-        vertical-align: top;
-        position: relative;
-        max-width: 100%;
-        border-radius: inherit;
-      }
-      .container > .wrapper > .inner {
-        vertical-align: top;
-        position: relative;
-        max-width: 100%;
-        border-radius: inherit;
-        text-align: var(--alignment);
-      }
-      #main .container.full:first-child > .wrapper {
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #main .container.full:last-child > .wrapper {
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #main .container.full:first-child > .wrapper > .inner {
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #main .container.full:last-child > .wrapper > .inner {
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container01 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container01 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container01.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container01.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container01.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container01.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container01.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container01.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container01.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container01.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container01.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container01.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container01.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container01.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container01.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container01.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container01.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container01.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container01.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container01.columns > .wrapper > .inner > div:first-child, #container01.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container01.columns > .wrapper > .inner > div:last-child, #container01.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container01.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container01.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container01.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container01.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container01.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container02 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container02 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container02.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container02.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container02.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container02.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container02.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container02.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container02.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container02.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container02.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container02.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container02.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container02.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container02.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container02.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container02.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container02.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container02.columns > .wrapper > .inner > div:first-child, #container02.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > div:last-child, #container02.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container02.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container03 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container03 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container03.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container03.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container03.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container03.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container03.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container03.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container03.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container03.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container03.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container03.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container03.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container03.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container03.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container03.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container03.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container03.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container03.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container03.columns > .wrapper > .inner > div:first-child, #container03.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container03.columns > .wrapper > .inner > div:last-child, #container03.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container03.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container03.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container03.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container03.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container03.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container04 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container04 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container04.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container04.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container04.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container04.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container04.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container04.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container04.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container04.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container04.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container04.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container04.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container04.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container04.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container04.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container04.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container04.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container04.columns > .wrapper > .inner > div:first-child, #container04.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > div:last-child, #container04.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container04.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #footer {
-        margin-top: 0.75rem !important;
       }
       h1, h2, h3, p {
         direction: var(--site-language-direction);
@@ -883,6 +424,150 @@
       #text08 span.p:nth-child(n + 2) {
         margin-top: 1rem;
       }
+      #text09 {
+        color: #FFFFFF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 1em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text09 a {
+        text-decoration: underline;
+      }
+      #text09 a:hover {
+        text-decoration: none;
+      }
+      #text09 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text10 {
+        color: #FFFFFF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 1.75em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text10 a {
+        text-decoration: underline;
+      }
+      #text10 a:hover {
+        text-decoration: none;
+      }
+      #text10 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text11 {
+        color: #FFFFFF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 1em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text11 a {
+        text-decoration: underline;
+      }
+      #text11 a:hover {
+        text-decoration: none;
+      }
+      #text11 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text12 {
+        color: #FFFFFF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 1.375em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text12 a {
+        text-decoration: underline;
+      }
+      #text12 a:hover {
+        text-decoration: none;
+      }
+      #text12 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text13 {
+        color: #29A5FF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 0.875em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text13 a {
+        text-decoration: underline;
+      }
+      #text13 a:hover {
+        text-decoration: none;
+      }
+      #text13 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text14 {
+        color: #FFFFFF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 1.75em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text14 a {
+        text-decoration: underline;
+      }
+      #text14 a:hover {
+        text-decoration: none;
+      }
+      #text14 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text15 {
+        color: #FFFFFF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 1em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text15 a {
+        text-decoration: underline;
+      }
+      #text15 a:hover {
+        text-decoration: none;
+      }
+      #text15 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text16 {
+        color: #FFFFFF;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 1.375em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text16 a {
+        text-decoration: underline;
+      }
+      #text16 a:hover {
+        text-decoration: none;
+      }
+      #text16 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text17 {
+        color: #8A8A8A;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 0.875em;
+        line-height: 1.25;
+        font-weight: 400;
+      }
+      #text17 a {
+        text-decoration: underline;
+      }
+      #text17 a:hover {
+        text-decoration: none;
+      }
+      #text17 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
       .buttons {
         cursor: default;
         display: flex;
@@ -901,6 +586,141 @@
         text-decoration: none;
         vertical-align: middle;
         white-space: nowrap;
+      }
+      #buttons06 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons06 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons06 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons03 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons03 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons03 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons09 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons09 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons09 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons07 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons07 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons07 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons10 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons10 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons10 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
       }
       #buttons02 {
         gap: 1.375rem;
@@ -983,60 +803,6 @@
         background-color: #198EFA;
         color: #FFFFFF;
       }
-      #buttons03 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons03 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons03 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons06 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons06 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons06 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
       #buttons04 {
         gap: 1.375rem;
         flex-direction: row;
@@ -1063,6 +829,613 @@
       #buttons04 .button {
         background-color: #198EFA;
         color: #FFFFFF;
+      }
+      #buttons08 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons08 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons08 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      .container {
+        position: relative;
+      }
+      .container > .wrapper {
+        vertical-align: top;
+        position: relative;
+        max-width: 100%;
+        border-radius: inherit;
+      }
+      .container > .wrapper > .inner {
+        vertical-align: top;
+        position: relative;
+        max-width: 100%;
+        border-radius: inherit;
+        text-align: var(--alignment);
+      }
+      #main .container.full:first-child > .wrapper {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #main .container.full:last-child > .wrapper {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #main .container.full:first-child > .wrapper > .inner {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #main .container.full:last-child > .wrapper > .inner {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container02 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container02 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container02.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container02.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container02.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container02.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container02.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container02.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container02.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container02.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container02.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container02.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container02.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container02.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container02.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container02.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container02.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container02.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container02.columns > .wrapper > .inner > div:first-child, #container02.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > div:last-child, #container02.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container02.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container04 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container04 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container04.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container04.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container04.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container04.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container04.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container04.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container04.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container04.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container04.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container04.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container04.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container04.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container04.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container04.columns > .wrapper > .inner > div:first-child, #container04.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > div:last-child, #container04.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container04.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container05 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container05 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container05.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container05.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container05.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container05.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container05.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container05.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container05.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container05.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container05.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container05.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container05.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container05.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container05.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container05.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container05.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container05.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container05.columns > .wrapper > .inner > div:first-child, #container05.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > div:last-child, #container05.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container05.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container06 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container06 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container06.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container06.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container06.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container06.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container06.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container06.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container06.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container06.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container06.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container06.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container06.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container06.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container06.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container06.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container06.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container06.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container06.columns > .wrapper > .inner > div:first-child, #container06.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > div:last-child, #container06.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container06.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container06 > .wrapper > .inner > :nth-child(1) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container06 > .wrapper > .inner > :nth-child(2) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container06 > .wrapper > .inner > :nth-child(3) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container07 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container07 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container07.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container07.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container07.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container07.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container07.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container07.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container07.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container07.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container07.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container07.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container07.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container07.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container07.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container07.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container07.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container07.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container07.columns > .wrapper > .inner > div:first-child, #container07.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > div:last-child, #container07.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container07.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container07 > .wrapper > .inner > :nth-child(1) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container07 > .wrapper > .inner > :nth-child(2) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container07 > .wrapper > .inner > :nth-child(3) {
+        width: calc(33.33333% + (var(--gutters) / 3));
       }
       .image {
         display: block;
@@ -1151,7 +1524,7 @@
       }
       #image04 .frame img {
         transition: none;
-      } 
+      }
       #image05 .frame {
         width: 48.125rem;
         height: 9.25rem;
@@ -1164,6 +1537,51 @@
         width: 100% !important;
       }
       #image05 .frame img {
+        transition: none;
+      }
+      #image06 .frame {
+        width: 7.875rem;
+        height: 7.875rem;
+        border-radius: 100%;
+        transition: none;
+      }
+      #image06 img {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center;
+        width: 100% !important;
+      }
+      #image06 .frame img {
+        transition: none;
+      }
+      #image07 .frame {
+        width: 7.875rem;
+        height: 7.875rem;
+        border-radius: 100%;
+        transition: none;
+      }
+      #image07 img {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center;
+        width: 100% !important;
+      }
+      #image07 .frame img {
+        transition: none;
+      }
+      #image08 .frame {
+        width: 7.875rem;
+        height: 7.875rem;
+        border-radius: 100%;
+        transition: none;
+      }
+      #image08 img {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center;
+        width: 100% !important;
+      }
+      #image08 .frame img {
         transition: none;
       }
       .links {
@@ -1249,77 +1667,6 @@
         height: 1px;
         margin-top: -0.5px;
       }
-      .icc-credits {
-        display: block;
-        opacity: 1 !important;
-        position: relative;
-        transition-delay: 0s !important;
-      }
-      .icc-credits span {
-        border-radius: 24px;
-        cursor: pointer;
-        display: inline-block;
-        font-family: Arial, sans-serif;
-        font-size: 12px;
-        letter-spacing: 0;
-        line-height: 1;
-        position: relative;
-        text-decoration: none;
-        width: auto;
-      }
-      .icc-credits span a {
-        display: inline-block;
-        padding: 0.5em 0.375em;
-        position: relative;
-        text-decoration: none;
-        transition: color 0.25s ease, transform 0.25s ease;
-        z-index: 1;
-      }
-      .icc-credits span a:before {
-        content: '( ';
-        opacity: 1;
-        transition: opacity 0.25s ease;
-      }
-      .icc-credits span a:after {
-        content: ' )';
-        opacity: 1;
-        transition: opacity 0.25s ease;
-      }
-      .icc-credits span::after {
-        background-image: linear-gradient(30deg, #A464A1 15%, #3B5DAD 85%);
-        border-radius: inherit;
-        box-shadow: 0 0.25em 1.25em 0 rgba(0,0,0,0.25);
-        content: '';
-        display: block;
-        height: calc(100% + 2px);
-        left: -1px;
-        opacity: 0;
-        pointer-events: none;
-        position: absolute;
-        top: -1px;
-        transition: opacity 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
-        width: calc(100% + 2px);
-      }
-      .icc-credits span:hover {
-        text-transform: none !important;
-      }
-      .icc-credits span:hover a {
-        color: #ffffff !important;
-        transform: scale(1.1) translateY(-0.05rem);
-      }
-      .icc-credits span:hover a:before {
-        opacity: 0;
-      }
-      .icc-credits span:hover a:after {
-        opacity: 0;
-      }
-      .icc-credits span:hover::after {
-        opacity: 1;
-        transform: scale(1.1) translateY(-0.05rem);
-      }
-      #credits span {
-        color: rgba(255,255,255,0.498);
-      }
       @media (max-width: 1920px) {
       }
       @media (max-width: 1680px) {
@@ -1356,82 +1703,193 @@
         #main > .inner > * > .full.screen {
           margin-left: -50vw;
         }
-        #main > .inner > footer > .full:last-child {
-          margin-bottom: -3rem !important;
-        }
         #main > .inner > .active > .full:first-child {
           margin-top: -3rem !important;
         }
-        #container01 > .wrapper > .inner {
-          --gutters: 2rem;
-          --padding-horizontal: 2rem;
-          --padding-vertical: 2.5rem;
+        #main > .inner > .active > .full:last-child {
+          margin-bottom: -3rem !important;
         }
-        #container01.columns > .wrapper > .inner {
-          flex-direction: column !important;
-          flex-wrap: nowrap !important;
+        #text01 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 2.375em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > span {
-          height: 0;
-          margin-top: calc(var(--gutters) * -1);
-          pointer-events: none;
-          visibility: hidden;
+        #text02 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > *:first-child {
-          margin-left: 0 !important;
-          padding-top: 0 !important;
+        #text03 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > * {
-          padding: calc(var(--gutters) * 0.5) 0 !important;
+        #text04 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > *:last-child {
-          padding-bottom: 0 !important;
+        #text05 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        #text06 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:first-of-type > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        #text07 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:last-of-type > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        #text08 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div > .full:first-child {
-          margin-top: calc(var(--gutters) * -0.5) !important;
+        #text09 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div > .full:last-child {
-          margin-bottom: calc(var(--gutters) * -0.5) !important;
+        #text10 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.75em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
-          margin-top: calc(var(--padding-vertical) * -1) !important;
+        #text11 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
-          margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        #text12 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.375em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:first-of-type, #container01.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
-          border-top-left-radius: inherit;
-          border-top-right-radius: inherit;
+        #text13 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 0.875em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:last-of-type, #container01.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
-          border-bottom-left-radius: inherit;
-          border-bottom-right-radius: inherit;
+        #text14 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.75em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:first-of-type, #container01.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
-          border-bottom-left-radius: 0 !important;
+        #text15 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > div:last-of-type, #container01.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
-          border-top-right-radius: 0 !important;
+        #text16 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.375em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-          height: auto;
+        #text17 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 0.875em;
+          line-height: 1.25;
         }
-        #container01.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-          height: auto;
-          position: relative;
-          width: auto;
+        #buttons06 {
+          gap: 1.375rem;
+        }
+        #buttons06 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons03 {
+          gap: 1.375rem;
+        }
+        #buttons03 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons09 {
+          gap: 1.375rem;
+        }
+        #buttons09 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons07 {
+          gap: 1.375rem;
+        }
+        #buttons07 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons10 {
+          gap: 1.375rem;
+        }
+        #buttons10 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons02 {
+          gap: 1.375rem;
+        }
+        #buttons02 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons05 {
+          gap: 1.375rem;
+        }
+        #buttons05 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons01 {
+          gap: 1.375rem;
+        }
+        #buttons01 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons04 {
+          gap: 1.375rem;
+        }
+        #buttons04 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons08 {
+          gap: 1.375rem;
+        }
+        #buttons08 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
         }
         #container02 > .wrapper > .inner {
           --gutters: 2rem;
@@ -1500,77 +1958,6 @@
           height: auto;
         }
         #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-          height: auto;
-          position: relative;
-          width: auto;
-        }
-        #container03 > .wrapper > .inner {
-          --gutters: 2rem;
-          --padding-horizontal: 2rem;
-          --padding-vertical: 2.5rem;
-        }
-        #container03.columns > .wrapper > .inner {
-          flex-direction: column !important;
-          flex-wrap: nowrap !important;
-        }
-        #container03.columns > .wrapper > .inner > span {
-          height: 0;
-          margin-top: calc(var(--gutters) * -1);
-          pointer-events: none;
-          visibility: hidden;
-        }
-        #container03.columns > .wrapper > .inner > *:first-child {
-          margin-left: 0 !important;
-          padding-top: 0 !important;
-        }
-        #container03.columns > .wrapper > .inner > * {
-          padding: calc(var(--gutters) * 0.5) 0 !important;
-        }
-        #container03.columns > .wrapper > .inner > *:last-child {
-          padding-bottom: 0 !important;
-        }
-        #container03.columns > .wrapper > .inner > div > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-        }
-        #container03.columns > .wrapper > .inner > div:first-of-type > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-        }
-        #container03.columns > .wrapper > .inner > div:last-of-type > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-        }
-        #container03.columns > .wrapper > .inner > div > .full:first-child {
-          margin-top: calc(var(--gutters) * -0.5) !important;
-        }
-        #container03.columns > .wrapper > .inner > div > .full:last-child {
-          margin-bottom: calc(var(--gutters) * -0.5) !important;
-        }
-        #container03.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
-          margin-top: calc(var(--padding-vertical) * -1) !important;
-        }
-        #container03.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
-          margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        }
-        #container03.columns > .wrapper > .inner > div:first-of-type, #container03.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
-          border-top-left-radius: inherit;
-          border-top-right-radius: inherit;
-        }
-        #container03.columns > .wrapper > .inner > div:last-of-type, #container03.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
-          border-bottom-left-radius: inherit;
-          border-bottom-right-radius: inherit;
-        }
-        #container03.columns > .wrapper > .inner > div:first-of-type, #container03.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
-          border-bottom-left-radius: 0 !important;
-        }
-        #container03.columns > .wrapper > .inner > div:last-of-type, #container03.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
-          border-top-right-radius: 0 !important;
-        }
-        #container03.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-          height: auto;
-        }
-        #container03.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
           height: auto;
           position: relative;
           width: auto;
@@ -1646,104 +2033,242 @@
           position: relative;
           width: auto;
         }
-        #footer {
-          margin-top: 0.5625rem !important;
+        #container05 > .wrapper > .inner {
+          --gutters: 2rem;
+          --padding-horizontal: 2rem;
+          --padding-vertical: 2.5rem;
         }
-        #text01 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 2.375em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner {
+          flex-direction: column !important;
+          flex-wrap: nowrap !important;
         }
-        #text02 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > span {
+          height: 0;
+          margin-top: calc(var(--gutters) * -1);
+          pointer-events: none;
+          visibility: hidden;
         }
-        #text03 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > *:first-child {
+          margin-left: 0 !important;
+          padding-top: 0 !important;
         }
-        #text04 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > * {
+          padding: calc(var(--gutters) * 0.5) 0 !important;
         }
-        #text05 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > *:last-child {
+          padding-bottom: 0 !important;
         }
-        #text06 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
         }
-        #text07 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:first-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
         }
-        #text08 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:last-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
         }
-        #buttons02 {
-          gap: 1.375rem;
+        #container05.columns > .wrapper > .inner > div > .full:first-child {
+          margin-top: calc(var(--gutters) * -0.5) !important;
         }
-        #buttons02 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
+        #container05.columns > .wrapper > .inner > div > .full:last-child {
+          margin-bottom: calc(var(--gutters) * -0.5) !important;
         }
-        #buttons05 {
-          gap: 1.375rem;
+        #container05.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          margin-top: calc(var(--padding-vertical) * -1) !important;
         }
-        #buttons05 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
+        #container05.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          margin-bottom: calc(var(--padding-vertical) * -1) !important;
         }
-        #buttons01 {
-          gap: 1.375rem;
+        #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          border-top-left-radius: inherit;
+          border-top-right-radius: inherit;
         }
-        #buttons01 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
+        #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          border-bottom-left-radius: inherit;
+          border-bottom-right-radius: inherit;
         }
-        #buttons03 {
-          gap: 1.375rem;
+        #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
+          border-bottom-left-radius: 0 !important;
         }
-        #buttons03 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
+        #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
+          border-top-right-radius: 0 !important;
         }
-        #buttons06 {
-          gap: 1.375rem;
+        #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+          height: auto;
         }
-        #buttons06 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
+        #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+          height: auto;
+          position: relative;
+          width: auto;
         }
-        #buttons04 {
-          gap: 1.375rem;
+        #container06 > .wrapper > .inner {
+          --gutters: 2rem;
+          --padding-horizontal: 2rem;
+          --padding-vertical: 2.5rem;
         }
-        #buttons04 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
+        #container06.columns > .wrapper > .inner {
+          flex-direction: column !important;
+          flex-wrap: nowrap !important;
+        }
+        #container06.columns > .wrapper > .inner > span {
+          height: 0;
+          margin-top: calc(var(--gutters) * -1);
+          pointer-events: none;
+          visibility: hidden;
+        }
+        #container06.columns > .wrapper > .inner > *:first-child {
+          margin-left: 0 !important;
+          padding-top: 0 !important;
+        }
+        #container06.columns > .wrapper > .inner > * {
+          padding: calc(var(--gutters) * 0.5) 0 !important;
+        }
+        #container06.columns > .wrapper > .inner > *:last-child {
+          padding-bottom: 0 !important;
+        }
+        #container06.columns > .wrapper > .inner > div > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container06.columns > .wrapper > .inner > div:first-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container06.columns > .wrapper > .inner > div:last-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container06.columns > .wrapper > .inner > div > .full:first-child {
+          margin-top: calc(var(--gutters) * -0.5) !important;
+        }
+        #container06.columns > .wrapper > .inner > div > .full:last-child {
+          margin-bottom: calc(var(--gutters) * -0.5) !important;
+        }
+        #container06.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          margin-top: calc(var(--padding-vertical) * -1) !important;
+        }
+        #container06.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        }
+        #container06.columns > .wrapper > .inner > div:first-of-type, #container06.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          border-top-left-radius: inherit;
+          border-top-right-radius: inherit;
+        }
+        #container06.columns > .wrapper > .inner > div:last-of-type, #container06.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          border-bottom-left-radius: inherit;
+          border-bottom-right-radius: inherit;
+        }
+        #container06.columns > .wrapper > .inner > div:first-of-type, #container06.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
+          border-bottom-left-radius: 0 !important;
+        }
+        #container06.columns > .wrapper > .inner > div:last-of-type, #container06.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
+          border-top-right-radius: 0 !important;
+        }
+        #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+          height: auto;
+        }
+        #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+          height: auto;
+          position: relative;
+          width: auto;
+        }
+        #container06 > .wrapper > .inner > :nth-child(1) {
+          min-height: 100% !important;
+          width: 100% !important;
+        }
+        #container06 > .wrapper > .inner > :nth-child(2) {
+          min-height: 100% !important;
+          width: 100% !important;
+        }
+        #container06 > .wrapper > .inner > :nth-child(3) {
+          min-height: 100% !important;
+          width: 100% !important;
+        }
+        #container07 > .wrapper > .inner {
+          --gutters: 2rem;
+          --padding-horizontal: 2rem;
+          --padding-vertical: 2.5rem;
+        }
+        #container07.columns > .wrapper > .inner {
+          flex-direction: column !important;
+          flex-wrap: nowrap !important;
+        }
+        #container07.columns > .wrapper > .inner > span {
+          height: 0;
+          margin-top: calc(var(--gutters) * -1);
+          pointer-events: none;
+          visibility: hidden;
+        }
+        #container07.columns > .wrapper > .inner > *:first-child {
+          margin-left: 0 !important;
+          padding-top: 0 !important;
+        }
+        #container07.columns > .wrapper > .inner > * {
+          padding: calc(var(--gutters) * 0.5) 0 !important;
+        }
+        #container07.columns > .wrapper > .inner > *:last-child {
+          padding-bottom: 0 !important;
+        }
+        #container07.columns > .wrapper > .inner > div > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container07.columns > .wrapper > .inner > div:first-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container07.columns > .wrapper > .inner > div:last-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container07.columns > .wrapper > .inner > div > .full:first-child {
+          margin-top: calc(var(--gutters) * -0.5) !important;
+        }
+        #container07.columns > .wrapper > .inner > div > .full:last-child {
+          margin-bottom: calc(var(--gutters) * -0.5) !important;
+        }
+        #container07.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          margin-top: calc(var(--padding-vertical) * -1) !important;
+        }
+        #container07.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        }
+        #container07.columns > .wrapper > .inner > div:first-of-type, #container07.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          border-top-left-radius: inherit;
+          border-top-right-radius: inherit;
+        }
+        #container07.columns > .wrapper > .inner > div:last-of-type, #container07.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          border-bottom-left-radius: inherit;
+          border-bottom-right-radius: inherit;
+        }
+        #container07.columns > .wrapper > .inner > div:first-of-type, #container07.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
+          border-bottom-left-radius: 0 !important;
+        }
+        #container07.columns > .wrapper > .inner > div:last-of-type, #container07.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
+          border-top-right-radius: 0 !important;
+        }
+        #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+          height: auto;
+        }
+        #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+          height: auto;
+          position: relative;
+          width: auto;
+        }
+        #container07 > .wrapper > .inner > :nth-child(1) {
+          min-height: 100% !important;
+          width: 100% !important;
+        }
+        #container07 > .wrapper > .inner > :nth-child(2) {
+          min-height: 100% !important;
+          width: 100% !important;
+        }
+        #container07 > .wrapper > .inner > :nth-child(3) {
+          min-height: 100% !important;
+          width: 100% !important;
         }
         #image01 .frame {
           height: 11.5625rem !important;
@@ -1782,13 +2307,43 @@
           height: 100% !important;
           object-fit: cover;
           object-position: center;
-          width: 100% !important; 
-         }
+          width: 100% !important;
+        }
         #image05 .frame {
           width: 48.125rem;
           height: 11.5625rem !important;
         }
         #image05 img {
+          height: 100% !important;
+          object-fit: cover;
+          object-position: center;
+          width: 100% !important;
+        }
+        #image06 .frame {
+          width: 7.875rem;
+          height: 9.84375rem !important;
+        }
+        #image06 img {
+          height: 100% !important;
+          object-fit: cover;
+          object-position: center;
+          width: 100% !important;
+        }
+        #image07 .frame {
+          width: 7.875rem;
+          height: 9.84375rem !important;
+        }
+        #image07 img {
+          height: 100% !important;
+          object-fit: cover;
+          object-position: center;
+          width: 100% !important;
+        }
+        #image08 .frame {
+          width: 7.875rem;
+          height: 9.84375rem !important;
+        }
+        #image08 img {
           height: 100% !important;
           object-fit: cover;
           object-position: center;
@@ -1817,6 +2372,46 @@
         #main > .inner {
           --spacing: 0.65625rem;
         }
+        #buttons06 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons06 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
+        #buttons03 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons03 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
+        #buttons09 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons09 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
+        #buttons07 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons07 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
+        #buttons10 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons10 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
         #buttons02 {
           flex-direction: column;
           flex-wrap: nowrap;
@@ -1841,27 +2436,19 @@
           max-width: 32rem;
           width: 100%;
         }
-        #buttons03 {
-          flex-direction: column;
-          flex-wrap: nowrap;
-        }
-        #buttons03 li a {
-          max-width: 32rem;
-          width: 100%;
-        }
-        #buttons06 {
-          flex-direction: column;
-          flex-wrap: nowrap;
-        }
-        #buttons06 li a {
-          max-width: 32rem;
-          width: 100%;
-        }
         #buttons04 {
           flex-direction: column;
           flex-wrap: nowrap;
         }
         #buttons04 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
+        #buttons08 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons08 li a {
           max-width: 32rem;
           width: 100%;
         }
@@ -1880,6 +2467,15 @@
         #image05 .frame {
           height: 9.25rem !important;
         }
+        #image06 .frame {
+          height: 7.875rem !important;
+        }
+        #image07 .frame {
+          height: 7.875rem !important;
+        }
+        #image08 .frame {
+          height: 7.875rem !important;
+        }
       }
       @media (max-width: 360px) {
         #main > .inner {
@@ -1895,31 +2491,11 @@
         #main > .inner > * > .full.screen {
           margin-left: -50vw;
         }
-        #main > .inner > footer > .full:last-child {
-          margin-bottom: -2.25rem !important;
-        }
         #main > .inner > .active > .full:first-child {
           margin-top: -2.25rem !important;
         }
-        #container01 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
-        }
-        #container02 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
-        }
-        #container03 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
-        }
-        #container04 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
+        #main > .inner > .active > .full:last-child {
+          margin-bottom: -2.25rem !important;
         }
         #text01 {
           font-size: 2em;
@@ -1945,6 +2521,48 @@
         #text08 {
           font-size: 1em;
         }
+        #text09 {
+          font-size: 1em;
+        }
+        #text10 {
+          font-size: 1.5em;
+        }
+        #text11 {
+          font-size: 1em;
+        }
+        #text12 {
+          font-size: 1.375em;
+        }
+        #text13 {
+          font-size: 0.875em;
+        }
+        #text14 {
+          font-size: 1.5em;
+        }
+        #text15 {
+          font-size: 1em;
+        }
+        #text16 {
+          font-size: 1.375em;
+        }
+        #text17 {
+          font-size: 0.875em;
+        }
+        #buttons06 {
+          gap: 1.03125rem;
+        }
+        #buttons03 {
+          gap: 1.03125rem;
+        }
+        #buttons09 {
+          gap: 1.03125rem;
+        }
+        #buttons07 {
+          gap: 1.03125rem;
+        }
+        #buttons10 {
+          gap: 1.03125rem;
+        }
         #buttons02 {
           gap: 1.03125rem;
         }
@@ -1954,14 +2572,36 @@
         #buttons01 {
           gap: 1.03125rem;
         }
-        #buttons03 {
-          gap: 1.03125rem;
-        }
-        #buttons06 {
-          gap: 1.03125rem;
-        }
         #buttons04 {
           gap: 1.03125rem;
+        }
+        #buttons08 {
+          gap: 1.03125rem;
+        }
+        #container02 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container04 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container05 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container06 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container07 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
         }
         #image01 .frame {
           height: 8.09375rem !important;
@@ -1977,6 +2617,15 @@
         }
         #image05 .frame {
           height: 8.09375rem !important;
+        }
+        #image06 .frame {
+          height: 6.890625rem !important;
+        }
+        #image07 .frame {
+          height: 6.890625rem !important;
+        }
+        #image08 .frame {
+          height: 6.890625rem !important;
         }
         #links01 {
           gap: 0.375rem;
@@ -1998,39 +2647,21 @@
       <div id="main">
         <div class="inner">
           <section id="home-section">
-            <div id="container01" class="container default">
-              <div class="wrapper">
-                <div class="inner">
-                  <h1 id="text01">Welcome to my portfolio!
-                  </h1>
-                  <p id="text02">This will show all of the things
-                  </p>
-                  <ul id="buttons02" class="buttons">
-                    <li>
-                      <a href="#banners" class="button n01">Banners
-                      </a>
-                    </li>
-                  </ul>
-                  <ul id="buttons05" class="buttons">
-                    <li>
-                      <a href="#scripts" class="button n01">Scripts
-                      </a>
-                    </li>
-                  </ul>
-                  <ul id="buttons01" class="buttons">
-                    <li>
-                      <a href="#cheats" class="button n01">Cheats
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            <h1 id="text01">Welcome to my portfolio!
+            </h1>
+            <p id="text02">This will show all of the things
+            </p>
+            <ul id="buttons06" class="buttons">
+              <li>
+                <a href="#whoami" class="button n01">Who Am I
+                </a>
+              </li>
+            </ul>
           </section>
           <section id="banners-section">
             <ul id="buttons03" class="buttons">
               <li>
-                <a href="#home" class="button n01">Back
+                <a href="#whoami" class="button n01">Back
                 </a>
               </li>
             </ul>
@@ -2045,7 +2676,7 @@
                   </p>
                   <div id="image01" class="image full" data-position="center">
                     <span class="frame deferred">
-                      <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/rblx%20banner.png?raw=true" alt="" />
+                      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNDAwIDc5OSIgd2lkdGg9IjI0MDAiIGhlaWdodD0iNzk5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjZjY4ZGI3IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image01.jpg?v=7cef131d" alt="" />
                     </span>
                   </div>
                 </div>
@@ -2053,40 +2684,34 @@
             </div>
             <div id="image03" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/ashsai.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDU4NSIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNTg1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYjQ1ZDdjIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image03.jpg?v=7cef131d" alt="" />
               </span>
             </div>
             <div id="image02" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/calciumisatwinklikeimnotevenlyinghefrdmedmeandsaidhewasatwink.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDYwNCIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNjA0IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYjk2OGI4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image02.jpg?v=7cef131d" alt="" />
               </span>
             </div>
             <div id="image04" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/mrkitty.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDU5NSIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNTk1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMDQxNDMzIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image04.jpg?v=7cef131d" alt="" />
               </span>
             </div>
             <div id="image05" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/Box.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDYwNCIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNjA0IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMGEwZDExIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image05.jpg?v=7cef131d" alt="" />
               </span>
             </div>
           </section>
           <section id="scripts-section">
-            <div id="container03" class="container default">
-              <div class="wrapper">
-                <div class="inner">
-                  <ul id="buttons06" class="buttons">
-                    <li>
-                      <a href="#home" class="button n01">Back
-                      </a>
-                    </li>
-                  </ul>
-                  <p id="text04">These scripts are for roblox
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ul id="buttons09" class="buttons">
+              <li>
+                <a href="#whoami" class="button n01">Back
+                </a>
+              </li>
+            </ul>
+            <p id="text04">These scripts are for roblox
+            </p>
             <ul id="links01" class="links">
               <li class="n01">
                 <a href="https://raw.githubusercontent.com/Raisincains/Scripts/main/Movement%20Essentials">Movement Essentials
@@ -2115,9 +2740,9 @@
             </ul>
           </section>
           <section id="cheats-section">
-            <ul id="buttons04" class="buttons">
+            <ul id="buttons07" class="buttons">
               <li>
-                <a href="#home" class="button n01">Back
+                <a href="#whoami" class="button n01">Back
                 </a>
               </li>
             </ul>
@@ -2126,6 +2751,135 @@
                 <div class="inner">
                   <p id="text08">Well... These can&#39;t be public quite yet, but they will be soon!
                   </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="whoami-section">
+            <ul id="buttons10" class="buttons">
+              <li>
+                <a href="#home" class="button n01">Back
+                </a>
+              </li>
+            </ul>
+            <div id="container05" class="container default">
+              <div class="wrapper">
+                <div class="inner">
+                  <div id="image06" class="image" data-position="center">
+                    <span class="frame">
+                      <img src="assets/images/image06.jpg?v=7cef131d" alt="" />
+                    </span>
+                  </div>
+                  <p id="text09">
+                    <span class="p">Well since you clicked here I&#39;m guessing you want to know who I am, then you are in luck!.
+                    </span>
+                    <span class="p">I&#39;m raisincains, LuaU scripter, Ui developer, 
+                      <spoiler-text>and more ;)
+                      </spoiler-text>
+                    </span>
+                    <span class="p">I first started learning about coding by making games on Roblox in 2019 but it wasn&#39;t sticking until I learned about exploiting! ever since I started exploiting I&#39;ve wanted to make a 
+                      <a href="https://www.youtube.com/@raisincains337/videos">youtube channel
+                      </a> about it, which I did in March of 2023. But that was possibly the worst time to start documenting it because 
+                      <s>Byfron
+                      </s> Hyperion came out just a few months later. So for now I&#39;ve been sticking to making private Ui&#39;s and scripts.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <ul id="buttons02" class="buttons">
+              <li>
+                <a href="#banners" class="button n01">Banners
+                </a>
+              </li>
+            </ul>
+            <ul id="buttons05" class="buttons">
+              <li>
+                <a href="#scripts" class="button n01">Scripts
+                </a>
+              </li>
+            </ul>
+            <ul id="buttons01" class="buttons">
+              <li>
+                <a href="#cheats" class="button n01">Cheats
+                </a>
+              </li>
+            </ul>
+            <ul id="buttons04" class="buttons">
+              <li>
+                <a href="#besties" class="button n01">Friends
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section id="besties-section">
+            <ul id="buttons08" class="buttons">
+              <li>
+                <a href="#whoami" class="button n01">Back
+                </a>
+              </li>
+            </ul>
+            <div id="container06" class="container columns">
+              <div class="wrapper">
+                <div class="inner">
+                  <div>
+                    <h2 id="text10">Calcium
+                    </h2>
+                    <div id="image07" class="image" data-position="center">
+                      <span class="frame">
+                        <img src="assets/images/image07.jpg?v=7cef131d" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <p id="text11">
+                      <span class="p">calcium is chill ig
+                      </span>
+                      <span class="p">idk what else to say other than he is a twink
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <h3 id="text12">His website
+                    </h3>
+                    <p id="text13">
+                      <a href="https://calcal.space/">calcal.space
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="container07" class="container columns">
+              <div class="wrapper">
+                <div class="inner">
+                  <div>
+                    <h2 id="text14">MrKitty
+                    </h2>
+                    <div id="image08" class="image" data-position="center">
+                      <span class="frame">
+                        <img src="assets/images/image08.jpg?v=7cef131d" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <p id="text15">
+                      <span class="p">Kitty is a Ui/Ux Designer, A game developer, An obfuscation engineer.
+                      </span>
+                      <span class="p">
+                        <spoiler-text>He&#39;s #1 best sirius support member
+                        </spoiler-text>
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <h3 id="text16">His website
+                    </h3>
+                    <p id="text17">
+                      <a href="https://mrkittyofc.info/">mrkittyofc.info
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -2320,6 +3074,13 @@
             window.onerror = null;
           }
         };
+        (function() {
+          $body.addEventListener('click', function(e) {
+            if (e.target.tagName == 'SPOILER-TEXT')e.target.classList.toggle('active');
+          }
+                                );
+        }
+        )();
         (function() {
           var initialSection, initialScrollPoint, initialId,header, footer, name, hideHeader, hideFooter, disableAutoScroll,h, e, ee, k,locked = false,scrollPointParent = function(target) {
             while (target) {
@@ -2622,7 +3383,7 @@
           (function() {
             if (client.flags.lsdUnits) {
               document.documentElement.style.setProperty('--viewport-height', '100svh');
-              document.documentElement.style.setProperty('--background-height', '100dvh');
+              document.documentElement.style.setProperty('--background-height', '100lvh');
             }
             else {
               var f = function() {
