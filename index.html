@@ -1,20 +1,23 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <title>Raisincains Website
+    <title>Raisincains Portfolio
     </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="color-scheme" content="light only" />
-    <meta name="description" content="2313" />
-    <meta property="og:site_name" content="Raisincains Website" />
-    <meta property="og:title" content="Raisincains Website" />
+    <meta name="description" content="Raisincains luvs you" />
+    <meta property="og:site_name" content="Raisincains Portfolio" />
+    <meta property="og:title" content="Raisincains Portfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="This is my website!" />
+    <meta property="og:description" content="Raisincains luvs you" />
+    <meta property="og:image" content="https://raisincains.carrd.co/assets/images/card.jpg?v=efb9d6d8" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="800" />
+    <meta property="og:url" content="https://raisincains.carrd.co" />
     <meta property="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://raisincains.carrd.co" />
     <style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
       margin:0;
       padding:0;
@@ -282,6 +285,875 @@
         opacity: 0.35;
         z-index: 0;
       }
+      .container {
+        position: relative;
+      }
+      .container > .wrapper {
+        vertical-align: top;
+        position: relative;
+        max-width: 100%;
+        border-radius: inherit;
+      }
+      .container > .wrapper > .inner {
+        vertical-align: top;
+        position: relative;
+        max-width: 100%;
+        border-radius: inherit;
+        text-align: var(--alignment);
+      }
+      #main .container.full:first-child > .wrapper {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #main .container.full:last-child > .wrapper {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #main .container.full:first-child > .wrapper > .inner {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #main .container.full:last-child > .wrapper > .inner {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container05 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container05 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container05.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container05.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container05.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container05.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container05.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container05.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container05.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container05.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container05.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container05.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container05.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container05.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container05.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container05.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container05.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container05.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container05.columns > .wrapper > .inner > div:first-child, #container05.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > div:last-child, #container05.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container05.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container02 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container02 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container02.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container02.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container02.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container02.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container02.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container02.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container02.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container02.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container02.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container02.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container02.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container02.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container02.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container02.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container02.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container02.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container02.columns > .wrapper > .inner > div:first-child, #container02.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > div:last-child, #container02.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container02.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container04 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container04 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container04.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container04.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container04.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container04.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container04.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container04.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container04.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container04.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container04.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container04.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container04.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container04.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container04.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container04.columns > .wrapper > .inner > div:first-child, #container04.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > div:last-child, #container04.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container04.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container06 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container06 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container06.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container06.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container06.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container06.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container06.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container06.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container06.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container06.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container06.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container06.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container06.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container06.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container06.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container06.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container06.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container06.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container06.columns > .wrapper > .inner > div:first-child, #container06.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > div:last-child, #container06.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container06.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container06 > .wrapper > .inner > :nth-child(1) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container06 > .wrapper > .inner > :nth-child(2) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container06 > .wrapper > .inner > :nth-child(3) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container07 > .wrapper {
+        display: inline-block;
+        width: 79rem;
+        background-color: transparent;
+      }
+      #container07 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2.5rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+      }
+      #container07.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container07.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container07.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container07.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container07.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container07.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container07.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container07.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container07.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container07.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container07.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container07.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container07.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container07.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+      }
+      #container07.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container07.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container07.columns > .wrapper > .inner > div:first-child, #container07.columns > .wrapper > .inner > div:first-child > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > div:last-child, #container07.columns > .wrapper > .inner > div:last-child > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container07.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      #container07 > .wrapper > .inner > :nth-child(1) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container07 > .wrapper > .inner > :nth-child(2) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      #container07 > .wrapper > .inner > :nth-child(3) {
+        width: calc(33.33333% + (var(--gutters) / 3));
+      }
+      .buttons {
+        cursor: default;
+        display: flex;
+        justify-content: var(--flex-alignment);
+        letter-spacing: 0;
+        padding: 0;
+      }
+      .buttons li {
+        max-width: 100%;
+      }
+      .buttons li a {
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      #buttons03 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons03 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons03 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons09 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons09 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons09 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons07 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons07 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons07 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons05 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons05 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons05 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons02 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons02 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons02 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons01 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons01 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons01 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons11 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons11 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons11 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons04 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons04 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons04 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons12 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons12 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons12 .button {
+        background-color: #198EFA;
+        color: #FFFFFF;
+      }
+      #buttons08 {
+        gap: 1.375rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons08 li a {
+        display: inline-block;
+        width: auto;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 1.5rem;
+        vertical-align: middle;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        letter-spacing: 0.025rem;
+        padding-left: calc(0.025rem + 1.5rem);
+        font-size: 1.125em;
+        font-weight: 400;
+        border-radius: 0.75rem;
+        direction: var(--site-language-direction);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons08 .button {
+        background-color: #FA1919;
+        color: #FFFFFF;
+      }
       h1, h2, h3, p {
         direction: var(--site-language-direction);
         position: relative;
@@ -292,38 +1164,6 @@
       }
       h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 strong, h3 strong, p strong, h1 a, h2 a, h3 a, p a, h1 code, h2 code, h3 code, p code, h1 mark, h2 mark, h3 mark, p mark, h1 spoiler-text, h2 spoiler-text, h3 spoiler-text, p spoiler-text {
         -webkit-text-fill-color: currentcolor;
-      }
-      #text01 {
-        color: #FFFFFF;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        font-size: 2.375em;
-        line-height: 1.25;
-        font-weight: 700;
-      }
-      #text01 a {
-        text-decoration: underline;
-      }
-      #text01 a:hover {
-        text-decoration: none;
-      }
-      #text01 span.p:nth-child(n + 2) {
-        margin-top: 1rem;
-      }
-      #text02 {
-        color: #FFFFFF;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        font-size: 1em;
-        line-height: 1.25;
-        font-weight: 700;
-      }
-      #text02 a {
-        text-decoration: underline;
-      }
-      #text02 a:hover {
-        text-decoration: none;
-      }
-      #text02 span.p:nth-child(n + 2) {
-        margin-top: 1rem;
       }
       #text03 {
         color: #FFFFFF;
@@ -565,874 +1405,37 @@
       #text17 span.p:nth-child(n + 2) {
         margin-top: 1rem;
       }
-      .buttons {
-        cursor: default;
-        display: flex;
-        justify-content: var(--flex-alignment);
-        letter-spacing: 0;
-        padding: 0;
+      #text18 {
+        color: #FAFAFA;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 2em;
+        line-height: 1.25;
+        font-weight: 400;
       }
-      .buttons li {
-        max-width: 100%;
+      #text18 a {
+        text-decoration: underline;
       }
-      .buttons li a {
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        text-align: center;
+      #text18 a:hover {
         text-decoration: none;
-        vertical-align: middle;
-        white-space: nowrap;
       }
-      #buttons06 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
+      #text18 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
       }
-      #buttons06 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
+      #text19 {
+        color: #FAFAFA;
         font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
         font-size: 1.125em;
+        line-height: 1.25;
         font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
       }
-      #buttons06 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
+      #text19 a {
+        text-decoration: underline;
       }
-      #buttons03 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
+      #text19 a:hover {
+        text-decoration: none;
       }
-      #buttons03 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons03 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons09 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons09 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons09 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons07 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons07 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons07 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons10 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons10 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons10 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons02 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons02 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons02 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons05 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons05 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons05 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons01 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons01 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons01 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons04 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons04 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons04 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      #buttons08 {
-        gap: 1.375rem;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      #buttons08 li a {
-        display: inline-block;
-        width: auto;
-        height: 3rem;
-        line-height: 3rem;
-        padding: 0 1.5rem;
-        vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        letter-spacing: 0.025rem;
-        padding-left: calc(0.025rem + 1.5rem);
-        font-size: 1.125em;
-        font-weight: 400;
-        border-radius: 0.75rem;
-        direction: var(--site-language-direction);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-      }
-      #buttons08 .button {
-        background-color: #198EFA;
-        color: #FFFFFF;
-      }
-      .container {
-        position: relative;
-      }
-      .container > .wrapper {
-        vertical-align: top;
-        position: relative;
-        max-width: 100%;
-        border-radius: inherit;
-      }
-      .container > .wrapper > .inner {
-        vertical-align: top;
-        position: relative;
-        max-width: 100%;
-        border-radius: inherit;
-        text-align: var(--alignment);
-      }
-      #main .container.full:first-child > .wrapper {
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #main .container.full:last-child > .wrapper {
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #main .container.full:first-child > .wrapper > .inner {
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #main .container.full:last-child > .wrapper > .inner {
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container02 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container02 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container02.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container02.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container02.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container02.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container02.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container02.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container02.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container02.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container02.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container02.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container02.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container02.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container02.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container02.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container02.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container02.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container02.columns > .wrapper > .inner > div:first-child, #container02.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > div:last-child, #container02.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container02.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container02.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container04 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container04 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container04.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container04.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container04.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container04.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container04.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container04.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container04.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container04.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container04.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container04.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container04.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container04.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container04.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container04.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container04.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container04.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container04.columns > .wrapper > .inner > div:first-child, #container04.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > div:last-child, #container04.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container04.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container05 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container05 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container05.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container05.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container05.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container05.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container05.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container05.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container05.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container05.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container05.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container05.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container05.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container05.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container05.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container05.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container05.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container05.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container05.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container05.columns > .wrapper > .inner > div:first-child, #container05.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container05.columns > .wrapper > .inner > div:last-child, #container05.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container05.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container05.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container05.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container06 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container06 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container06.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container06.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container06.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container06.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container06.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container06.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container06.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container06.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container06.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container06.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container06.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container06.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container06.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container06.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container06.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container06.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container06.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container06.columns > .wrapper > .inner > div:first-child, #container06.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container06.columns > .wrapper > .inner > div:last-child, #container06.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container06.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container06.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container06.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container06.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container06 > .wrapper > .inner > :nth-child(1) {
-        width: calc(33.33333% + (var(--gutters) / 3));
-      }
-      #container06 > .wrapper > .inner > :nth-child(2) {
-        width: calc(33.33333% + (var(--gutters) / 3));
-      }
-      #container06 > .wrapper > .inner > :nth-child(3) {
-        width: calc(33.33333% + (var(--gutters) / 3));
-      }
-      #container07 > .wrapper {
-        display: inline-block;
-        width: 79rem;
-        background-color: transparent;
-      }
-      #container07 > .wrapper > .inner {
-        --gutters: 2rem;
-        --padding-horizontal: 2rem;
-        --padding-vertical: 2.5rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
-      }
-      #container07.default > .wrapper > .inner > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container07.default > .wrapper > .inner > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container07.default > .wrapper > .inner > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container07.columns > .wrapper > .inner {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: flex-start;
-      }
-      #container07.columns > .wrapper > .inner > * {
-        flex-grow: 0;
-        flex-shrink: 0;
-        max-width: 100%;
-        text-align: var(--alignment);
-        padding: 0 0 0 var(--gutters);
-      }
-      #container07.columns > .wrapper > .inner > * > * {
-        margin-bottom: var(--spacing);
-        margin-top: var(--spacing);
-      }
-      #container07.columns > .wrapper > .inner > * > *:first-child {
-        margin-top: 0 !important;
-      }
-      #container07.columns > .wrapper > .inner > * > *:last-child {
-        margin-bottom: 0 !important;
-      }
-      #container07.columns > .wrapper > .inner > *:first-child {
-        margin-left: calc(var(--gutters) * -1);
-      }
-      #container07.default > .wrapper > .inner > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        max-width: none !important;
-        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-      }
-      #container07.default > .wrapper > .inner > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container07.default > .wrapper > .inner > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
-      }
-      #container07.columns > .wrapper > .inner > div > .full {
-        margin-left: calc(var(--gutters) * -0.5);
-        max-width: none !important;
-        width: calc(100% + var(--gutters) + 0.4725px);
-      }
-      #container07.columns > .wrapper > .inner > div:first-child > .full {
-        margin-left: calc(var(--padding-horizontal) * -1);
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container07.columns > .wrapper > .inner > div:last-child > .full {
-        width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
-      }
-      #container07.columns > .wrapper > .inner > div > .full:first-child {
-        margin-top: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container07.columns > .wrapper > .inner > div > .full:last-child {
-        margin-bottom: calc(var(--padding-vertical) * -1) !important;
-      }
-      #container07.columns > .wrapper > .inner > div:first-child, #container07.columns > .wrapper > .inner > div:first-child > .full:first-child {
-        border-top-left-radius: inherit;
-      }
-      #container07.columns > .wrapper > .inner > div:last-child, #container07.columns > .wrapper > .inner > div:last-child > .full:first-child {
-        border-top-right-radius: inherit;
-      }
-      #container07.columns > .wrapper > .inner > .full {
-        align-self: stretch;
-      }
-      #container07.columns > .wrapper > .inner > .full:first-child {
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-      }
-      #container07.columns > .wrapper > .inner > .full:last-child {
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-      }
-      #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-        border-radius: inherit;
-        height: calc(100% + (var(--padding-vertical) * 2));
-      }
-      #container07.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-        border-radius: inherit;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
-      #container07 > .wrapper > .inner > :nth-child(1) {
-        width: calc(33.33333% + (var(--gutters) / 3));
-      }
-      #container07 > .wrapper > .inner > :nth-child(2) {
-        width: calc(33.33333% + (var(--gutters) / 3));
-      }
-      #container07 > .wrapper > .inner > :nth-child(3) {
-        width: calc(33.33333% + (var(--gutters) / 3));
+      #text19 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
       }
       .image {
         display: block;
@@ -1726,187 +1729,76 @@
         #main > .inner > .active > .full:last-child {
           margin-bottom: -3rem !important;
         }
-        #text01 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 2.375em;
-          line-height: 1.25;
+        #container05 > .wrapper > .inner {
+          --gutters: 2rem;
+          --padding-horizontal: 2rem;
+          --padding-vertical: 2.5rem;
         }
-        #text02 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner {
+          flex-direction: column !important;
+          flex-wrap: nowrap !important;
         }
-        #text03 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > span {
+          height: 0;
+          margin-top: calc(var(--gutters) * -1);
+          pointer-events: none;
+          visibility: hidden;
         }
-        #text04 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > *:first-child {
+          margin-left: 0 !important;
+          padding-top: 0 !important;
         }
-        #text05 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > * {
+          padding: calc(var(--gutters) * 0.5) 0 !important;
         }
-        #text06 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > *:last-child {
+          padding-bottom: 0 !important;
         }
-        #text07 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
         }
-        #text08 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:first-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
         }
-        #text09 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:last-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
         }
-        #text10 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1.75em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div > .full:first-child {
+          margin-top: calc(var(--gutters) * -0.5) !important;
         }
-        #text11 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div > .full:last-child {
+          margin-bottom: calc(var(--gutters) * -0.5) !important;
         }
-        #text12 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1.375em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          margin-top: calc(var(--padding-vertical) * -1) !important;
         }
-        #text13 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 0.875em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          margin-bottom: calc(var(--padding-vertical) * -1) !important;
         }
-        #text14 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1.75em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
+          border-top-left-radius: inherit;
+          border-top-right-radius: inherit;
         }
-        #text15 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
+          border-bottom-left-radius: inherit;
+          border-bottom-right-radius: inherit;
         }
-        #text16 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 1.375em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
+          border-bottom-left-radius: 0 !important;
         }
-        #text17 {
-          letter-spacing: 0rem;
-          width: 100%;
-          font-size: 0.875em;
-          line-height: 1.25;
+        #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
+          border-top-right-radius: 0 !important;
         }
-        #buttons06 {
-          gap: 1.375rem;
+        #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
+          height: auto;
         }
-        #buttons06 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons03 {
-          gap: 1.375rem;
-        }
-        #buttons03 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons09 {
-          gap: 1.375rem;
-        }
-        #buttons09 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons07 {
-          gap: 1.375rem;
-        }
-        #buttons07 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons10 {
-          gap: 1.375rem;
-        }
-        #buttons10 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons02 {
-          gap: 1.375rem;
-        }
-        #buttons02 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons05 {
-          gap: 1.375rem;
-        }
-        #buttons05 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons01 {
-          gap: 1.375rem;
-        }
-        #buttons01 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons04 {
-          gap: 1.375rem;
-        }
-        #buttons04 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
-        }
-        #buttons08 {
-          gap: 1.375rem;
-        }
-        #buttons08 li a {
-          letter-spacing: 0.025rem;
-          padding-left: calc(0.025rem + 1.5rem);
-          font-size: 1.125em;
+        #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
+          height: auto;
+          position: relative;
+          width: auto;
         }
         #container02 > .wrapper > .inner {
           --gutters: 2rem;
@@ -2046,77 +1938,6 @@
           height: auto;
         }
         #container04.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
-          height: auto;
-          position: relative;
-          width: auto;
-        }
-        #container05 > .wrapper > .inner {
-          --gutters: 2rem;
-          --padding-horizontal: 2rem;
-          --padding-vertical: 2.5rem;
-        }
-        #container05.columns > .wrapper > .inner {
-          flex-direction: column !important;
-          flex-wrap: nowrap !important;
-        }
-        #container05.columns > .wrapper > .inner > span {
-          height: 0;
-          margin-top: calc(var(--gutters) * -1);
-          pointer-events: none;
-          visibility: hidden;
-        }
-        #container05.columns > .wrapper > .inner > *:first-child {
-          margin-left: 0 !important;
-          padding-top: 0 !important;
-        }
-        #container05.columns > .wrapper > .inner > * {
-          padding: calc(var(--gutters) * 0.5) 0 !important;
-        }
-        #container05.columns > .wrapper > .inner > *:last-child {
-          padding-bottom: 0 !important;
-        }
-        #container05.columns > .wrapper > .inner > div > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-        }
-        #container05.columns > .wrapper > .inner > div:first-of-type > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-        }
-        #container05.columns > .wrapper > .inner > div:last-of-type > .full {
-          margin-left: calc(var(--padding-horizontal) * -1);
-          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
-        }
-        #container05.columns > .wrapper > .inner > div > .full:first-child {
-          margin-top: calc(var(--gutters) * -0.5) !important;
-        }
-        #container05.columns > .wrapper > .inner > div > .full:last-child {
-          margin-bottom: calc(var(--gutters) * -0.5) !important;
-        }
-        #container05.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
-          margin-top: calc(var(--padding-vertical) * -1) !important;
-        }
-        #container05.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
-          margin-bottom: calc(var(--padding-vertical) * -1) !important;
-        }
-        #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:first-child {
-          border-top-left-radius: inherit;
-          border-top-right-radius: inherit;
-        }
-        #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:last-child {
-          border-bottom-left-radius: inherit;
-          border-bottom-right-radius: inherit;
-        }
-        #container05.columns > .wrapper > .inner > div:first-of-type, #container05.columns > .wrapper > .inner > div:first-of-type > .full:last-child {
-          border-bottom-left-radius: 0 !important;
-        }
-        #container05.columns > .wrapper > .inner > div:last-of-type, #container05.columns > .wrapper > .inner > div:last-of-type > .full:first-child {
-          border-top-right-radius: 0 !important;
-        }
-        #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child {
-          height: auto;
-        }
-        #container05.columns > .wrapper > .inner > .full > .full:first-child:last-child > * {
           height: auto;
           position: relative;
           width: auto;
@@ -2287,6 +2108,188 @@
           min-height: 100% !important;
           width: 100% !important;
         }
+        #buttons03 {
+          gap: 1.375rem;
+        }
+        #buttons03 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons09 {
+          gap: 1.375rem;
+        }
+        #buttons09 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons07 {
+          gap: 1.375rem;
+        }
+        #buttons07 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons05 {
+          gap: 1.375rem;
+        }
+        #buttons05 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons02 {
+          gap: 1.375rem;
+        }
+        #buttons02 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons01 {
+          gap: 1.375rem;
+        }
+        #buttons01 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons11 {
+          gap: 1.375rem;
+        }
+        #buttons11 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons04 {
+          gap: 1.375rem;
+        }
+        #buttons04 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons12 {
+          gap: 1.375rem;
+        }
+        #buttons12 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #buttons08 {
+          gap: 1.375rem;
+        }
+        #buttons08 li a {
+          letter-spacing: 0.025rem;
+          padding-left: calc(0.025rem + 1.5rem);
+          font-size: 1.125em;
+        }
+        #text03 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text04 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text05 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text06 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text07 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text08 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text09 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text10 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.75em;
+          line-height: 1.25;
+        }
+        #text11 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text12 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.375em;
+          line-height: 1.25;
+        }
+        #text13 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 0.875em;
+          line-height: 1.25;
+        }
+        #text14 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.75em;
+          line-height: 1.25;
+        }
+        #text15 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1em;
+          line-height: 1.25;
+        }
+        #text16 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.375em;
+          line-height: 1.25;
+        }
+        #text17 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 0.875em;
+          line-height: 1.25;
+        }
+        #text18 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 2em;
+          line-height: 1.25;
+        }
+        #text19 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.125em;
+          line-height: 1.25;
+        }
         #image01 .frame {
           height: 11.5625rem !important;
         }
@@ -2402,14 +2405,6 @@
         #main > .inner {
           --spacing: 0.65625rem;
         }
-        #buttons06 {
-          flex-direction: column;
-          flex-wrap: nowrap;
-        }
-        #buttons06 li a {
-          max-width: 32rem;
-          width: 100%;
-        }
         #buttons03 {
           flex-direction: column;
           flex-wrap: nowrap;
@@ -2434,11 +2429,11 @@
           max-width: 32rem;
           width: 100%;
         }
-        #buttons10 {
+        #buttons05 {
           flex-direction: column;
           flex-wrap: nowrap;
         }
-        #buttons10 li a {
+        #buttons05 li a {
           max-width: 32rem;
           width: 100%;
         }
@@ -2450,14 +2445,6 @@
           max-width: 32rem;
           width: 100%;
         }
-        #buttons05 {
-          flex-direction: column;
-          flex-wrap: nowrap;
-        }
-        #buttons05 li a {
-          max-width: 32rem;
-          width: 100%;
-        }
         #buttons01 {
           flex-direction: column;
           flex-wrap: nowrap;
@@ -2466,11 +2453,27 @@
           max-width: 32rem;
           width: 100%;
         }
+        #buttons11 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons11 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
         #buttons04 {
           flex-direction: column;
           flex-wrap: nowrap;
         }
         #buttons04 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
+        #buttons12 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons12 li a {
           max-width: 32rem;
           width: 100%;
         }
@@ -2530,11 +2533,60 @@
         #main > .inner > .active > .full:last-child {
           margin-bottom: -2.25rem !important;
         }
-        #text01 {
-          font-size: 2em;
+        #container05 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
         }
-        #text02 {
-          font-size: 1em;
+        #container02 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container04 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container06 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container07 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 1.5rem;
+          --padding-vertical: 1.875rem;
+        }
+        #buttons03 {
+          gap: 1.03125rem;
+        }
+        #buttons09 {
+          gap: 1.03125rem;
+        }
+        #buttons07 {
+          gap: 1.03125rem;
+        }
+        #buttons05 {
+          gap: 1.03125rem;
+        }
+        #buttons02 {
+          gap: 1.03125rem;
+        }
+        #buttons01 {
+          gap: 1.03125rem;
+        }
+        #buttons11 {
+          gap: 1.03125rem;
+        }
+        #buttons04 {
+          gap: 1.03125rem;
+        }
+        #buttons12 {
+          gap: 1.03125rem;
+        }
+        #buttons08 {
+          gap: 1.03125rem;
         }
         #text03 {
           font-size: 1em;
@@ -2581,60 +2633,11 @@
         #text17 {
           font-size: 0.875em;
         }
-        #buttons06 {
-          gap: 1.03125rem;
+        #text18 {
+          font-size: 1.5em;
         }
-        #buttons03 {
-          gap: 1.03125rem;
-        }
-        #buttons09 {
-          gap: 1.03125rem;
-        }
-        #buttons07 {
-          gap: 1.03125rem;
-        }
-        #buttons10 {
-          gap: 1.03125rem;
-        }
-        #buttons02 {
-          gap: 1.03125rem;
-        }
-        #buttons05 {
-          gap: 1.03125rem;
-        }
-        #buttons01 {
-          gap: 1.03125rem;
-        }
-        #buttons04 {
-          gap: 1.03125rem;
-        }
-        #buttons08 {
-          gap: 1.03125rem;
-        }
-        #container02 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
-        }
-        #container04 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
-        }
-        #container05 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
-        }
-        #container06 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
-        }
-        #container07 > .wrapper > .inner {
-          --gutters: 1.5rem;
-          --padding-horizontal: 1.5rem;
-          --padding-vertical: 1.875rem;
+        #text19 {
+          font-size: 1.125em;
         }
         #image01 .frame {
           height: 8.09375rem !important;
@@ -2682,17 +2685,62 @@
     <div id="wrapper">
       <div id="main">
         <div class="inner">
-          <section id="home-section">
-            <h1 id="text01">Welcome to my portfolio!
-            </h1>
-            <p id="text02">This will show all of the things
-            </p>
-            <ul id="buttons06" class="buttons">
-              <li>
-                <a href="#whoami" class="button n01">Who Am I
-                </a>
-              </li>
-            </ul>
+          <section id="whoami-section">
+            <div id="container05" class="container default">
+              <div class="wrapper">
+                <div class="inner">
+                  <div id="image06" class="image" data-position="center">
+                    <span class="frame">
+                      <img src="assets/images/image06.jpg?v=efb9d6d8" alt="" />
+                    </span>
+                  </div>
+                  <p id="text09">
+                    <span class="p">Well since you clicked here I&#39;m guessing you want to know who I am, then you are in luck!.
+                    </span>
+                    <span class="p">I&#39;m raisincains, LuaU scripter, Ui developer, 
+                      <spoiler-text>and more ;)
+                      </spoiler-text>
+                    </span>
+                    <span class="p">I first started learning about coding by making games on Roblox in 2020 but it wasn&#39;t sticking until I learned about exploiting! ever since I started exploiting I&#39;ve wanted to make a 
+                      <a href="https://www.youtube.com/@raisincains337/videos">youtube channel
+                      </a> about it, which I did in March of 2023. But that was possibly the worst time to start documenting it because 
+                      <s>Byfron
+                      </s> Hyperion came out just a few months later. So for now I&#39;ve been sticking to making private Ui&#39;s and scripts.
+                    </span>
+                  </p>
+                  <ul id="buttons05" class="buttons">
+                    <li>
+                      <a href="#scripts" class="button n01">Scripts
+                      </a>
+                    </li>
+                  </ul>
+                  <ul id="buttons02" class="buttons">
+                    <li>
+                      <a href="#banners" class="button n01">Banners
+                      </a>
+                    </li>
+                  </ul>
+                  <ul id="buttons01" class="buttons">
+                    <li>
+                      <a href="#cheats" class="button n01">Cheats
+                      </a>
+                    </li>
+                  </ul>
+                  <ul id="buttons11" class="buttons">
+                    <li>
+                      <a href="#besties" class="button n01">Friends
+                      </a>
+                    </li>
+                  </ul>
+                  <ul id="buttons04" class="buttons">
+                    <li>
+                      <a href="#Enemies" class="button n01">Enemies
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </section>
           <section id="banners-section">
             <ul id="buttons03" class="buttons">
@@ -2712,7 +2760,7 @@
                   </p>
                   <div id="image01" class="image full" data-position="center">
                     <span class="frame deferred">
-                      <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/ashsai.png?raw=true" alt="" />
+                      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNDAwIDc5OSIgd2lkdGg9IjI0MDAiIGhlaWdodD0iNzk5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjZjY4ZGI3IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image01.jpg?v=efb9d6d8" alt="" />
                     </span>
                   </div>
                 </div>
@@ -2720,27 +2768,27 @@
             </div>
             <div id="image03" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/calciumisatwinklikeimnotevenlyinghefrdmedmeandsaidhewasatwink.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDU4NSIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNTg1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYjQ1ZDdjIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image03.jpg?v=efb9d6d8" alt="" />
               </span>
             </div>
             <div id="image02" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/rblx%20banner.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDYwNCIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNjA0IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYjk2OGI4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image02.jpg?v=efb9d6d8" alt="" />
               </span>
             </div>
             <div id="image04" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/Box.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDU5NSIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNTk1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMDQxNDMzIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image04.jpg?v=efb9d6d8" alt="" />
               </span>
             </div>
             <div id="image05" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/mrkitty.png?raw=true" alt="" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMDQwIDYwNCIgd2lkdGg9IjIwNDAiIGhlaWdodD0iNjA0IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMGEwZDExIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image05.jpg?v=efb9d6d8" alt="" />
               </span>
             </div>
             <div id="image09" class="image" data-position="center">
               <span class="frame deferred">
-                <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/Lunarosity.png?raw=true" alt="&quot;I don&#039;t want a background with a name... ten seconds later:&quot;" />
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5NjAgNTQwIiB3aWR0aD0iOTYwIiBoZWlnaHQ9IjU0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0idHJhbnNwYXJlbnQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image09.png?v=efb9d6d8" alt="&quot;I don&#039;t want a background with a name... ten seconds later:&quot;" />
               </span>
             </div>
           </section>
@@ -2796,65 +2844,8 @@
               </div>
             </div>
           </section>
-          <section id="whoami-section">
-            <ul id="buttons10" class="buttons">
-              <li>
-                <a href="#home" class="button n01">Back
-                </a>
-              </li>
-            </ul>
-            <div id="container05" class="container default">
-              <div class="wrapper">
-                <div class="inner">
-                  <div id="image06" class="image" data-position="center">
-                    <span class="frame">
-                      <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/Pfp.png?raw=true" alt="" />
-                    </span>
-                  </div>
-                  <p id="text09">
-                    <span class="p">Well since you clicked here I&#39;m guessing you want to know who I am, then you are in luck!.
-                    </span>
-                    <span class="p">I&#39;m raisincains, LuaU scripter, Ui developer, 
-                      <spoiler-text>and more ;)
-                      </spoiler-text>
-                    </span>
-                    <span class="p">I first started learning about coding by making games on Roblox in 2020 but it wasn&#39;t sticking until I learned about exploiting! ever since I started exploiting I&#39;ve wanted to make a 
-                      <a href="https://www.youtube.com/@raisincains337/videos">youtube channel
-                      </a> about it, which I did in March of 2023. But that was possibly the worst time to start documenting it because 
-                      <s>Byfron
-                      </s> Hyperion came out just a few months later. So for now I&#39;ve been sticking to making private Ui&#39;s and scripts.
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <ul id="buttons02" class="buttons">
-              <li>
-                <a href="#banners" class="button n01">Banners
-                </a>
-              </li>
-            </ul>
-            <ul id="buttons05" class="buttons">
-              <li>
-                <a href="#scripts" class="button n01">Scripts
-                </a>
-              </li>
-            </ul>
-            <ul id="buttons01" class="buttons">
-              <li>
-                <a href="#cheats" class="button n01">Cheats
-                </a>
-              </li>
-            </ul>
-            <ul id="buttons04" class="buttons">
-              <li>
-                <a href="#besties" class="button n01">Friends
-                </a>
-              </li>
-            </ul>
-          </section>
           <section id="besties-section">
-            <ul id="buttons08" class="buttons">
+            <ul id="buttons12" class="buttons">
               <li>
                 <a href="#whoami" class="button n01">Back
                 </a>
@@ -2868,7 +2859,7 @@
                     </h2>
                     <div id="image07" class="image" data-position="center">
                       <span class="frame">
-                        <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/calcium.png?raw=true" alt="" />
+                        <img src="assets/images/image07.jpg?v=efb9d6d8" alt="" />
                       </span>
                     </div>
                   </div>
@@ -2900,7 +2891,7 @@
                     </h2>
                     <div id="image08" class="image" data-position="center">
                       <span class="frame">
-                        <img src="https://github.com/Raisincains/raisincains.github.io/blob/main/mrkitty%20(2).png?raw=true" alt="" />
+                        <img src="assets/images/image08.jpg?v=efb9d6d8" alt="" />
                       </span>
                     </div>
                   </div>
@@ -2925,6 +2916,28 @@
                 </div>
               </div>
             </div>
+          </section>
+          <section id="enemies-section">
+            <ul id="buttons08" class="buttons">
+              <li>
+                <a href="#whoami" class="button n01">Back
+                </a>
+              </li>
+            </ul>
+            <h1 id="text18">
+              <strong>Lucifer007#1388
+              </strong>
+            </h1>
+            <p id="text19">
+              <mark>Fuck
+              </mark> this man I genuinely wish him pain, I wish for his death to last as long as possible with no pleasurable experience. I wish for no one to show up to his funeral. I am sorry for his families legacy because it will end with his 
+              <mark>bitch ass
+              </mark>. He is the reason this planet is going to shit. I wish for him to never gain any sense of happiness in his life. I wish for him to grow up single, live in a one bedroom apartment and kill himself, of course no one will find out for a month because his landlord will notice he hasn’t paid. His work won’t notice because he is an unnoticeable little piece of 
+              <mark>shit
+              </mark>. He has no fucking life, no one would cry if he hung himself. His own mother wouldn’t care. He could have a suicide letter and it won’t be read because his miserable 
+              <mark>ass
+              </mark> wrote a fucking paragraph because someone made a joke.
+            </p>
           </section>
         </div>
       </div>
@@ -3260,7 +3273,7 @@
             }
             else {
               locked = true;
-              if (location.hash == '#home')history.replaceState(null, null, '#');
+              if (location.hash == '#whoami')history.replaceState(null, null, '#');
               name = (section ? section.id.replace(/-section$/, '') : null);
               hideHeader = name ? ((name in sections) && ('hideHeader' in sections[name]) && sections[name].hideHeader) : false;
               hideFooter = name ? ((name in sections) && ('hideFooter' in sections[name]) && sections[name].hideFooter) : false;
@@ -3312,7 +3325,7 @@
             scrollToElement(null);
             if (!!(section = $('section.active'))) {
               id = section.id.replace(/-section$/, '');
-              if (id == 'home')id = '';
+              if (id == 'whoami')id = '';
               history.pushState(null, null, '#' + id);
             }
           };
@@ -3326,18 +3339,18 @@
             initialSection = initialScrollPoint.parentElement;
             initialId = initialSection.id;
           }
-          else if (e = $('#' + (h ? h : 'home') + '-section')) {
+          else if (e = $('#' + (h ? h : 'whoami') + '-section')) {
             initialScrollPoint = null;
             initialSection = e;
             initialId = initialSection.id;
           }
           if (!initialSection) {
             initialScrollPoint = null;
-            initialSection = $('#' + 'home' + '-section');
+            initialSection = $('#' + 'whoami' + '-section');
             initialId = initialSection.id;
             history.replaceState(undefined, undefined, '#');
           }
-          name = (h ? h : 'home');
+          name = (h ? h : 'whoami');
           hideHeader = name ? ((name in sections) && ('hideHeader' in sections[name]) && sections[name].hideHeader) : false;
           hideFooter = name ? ((name in sections) && ('hideFooter' in sections[name]) && sections[name].hideFooter) : false;
           disableAutoScroll = name ? ((name in sections) && ('disableAutoScroll' in sections[name]) && sections[name].disableAutoScroll) : false;
@@ -3372,13 +3385,13 @@
               scrollPoint = e;
               section = scrollPoint.parentElement;
             }
-            else if (e = $('#' + (h ? h : 'home') + '-section')) {
+            else if (e = $('#' + (h ? h : 'whoami') + '-section')) {
               scrollPoint = null;
               section = e;
             }
             else {
               scrollPoint = null;
-              section = $('#' + 'home' + '-section');
+              section = $('#' + 'whoami' + '-section');
               history.replaceState(undefined, undefined, '#');
             }
             if (!section)return false;
