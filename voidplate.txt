@@ -1,5 +1,4 @@
-<html>
-	<body>
+
 				function voidplate(x,z)
 	local part1 = Instance.new('Part', game.Workspace)
 	part1.Name = 'part'
@@ -528,5 +527,4 @@
 end
 
 voidplate(128,128)
-	</body>
-</html>
+
