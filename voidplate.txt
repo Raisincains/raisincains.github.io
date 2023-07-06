@@ -1,8 +1,5 @@
 <html>
-	  <head>
-		<meta name = "color-scheme" content-"light dark">
-	  </head>
-		<body>
+	<body>
 				function voidplate(x,z)
 	local part1 = Instance.new('Part', game.Workspace)
 	part1.Name = 'part'
@@ -531,5 +528,5 @@
 end
 
 voidplate(128,128)
-		</body>
+	</body>
 </html>
