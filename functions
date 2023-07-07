@@ -1,9 +1,6 @@
 RewriteRule ^([^\.]+)$ $functions.html [NC,L]
 
-<html>
 
-	<head></head>
-	<body>
 	--functions i just wanna put in a loadstring yknow
 	print("Raisincains Functions Loaded.")
 	function newchatpink()
@@ -45,6 +42,3 @@ RewriteRule ^([^\.]+)$ $functions.html [NC,L]
 	    end
 	end 
 	
-	
-	</body>
-</html>
