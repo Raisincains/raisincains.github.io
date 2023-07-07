@@ -1,3 +1,5 @@
+<head></head>
+<body>
 --functions i just wanna put in a loadstring yknow
 print("Raisincains Functions Loaded.")
 function newchatpink()
@@ -38,3 +40,6 @@ function highlightpart(path,r,g,b,bool)
     highlight.OutlineTransparency = 0
     end
 end 
+
+
+</body>
