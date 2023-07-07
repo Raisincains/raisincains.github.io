@@ -1,5 +1,5 @@
 --functions i just wanna put in a loadstring yknow
-
+print("Raisincains Functions Loaded.")
 function newchatpink()
 
   chatwindow = game:GetService("TextChatService").ChatWindowConfiguration
