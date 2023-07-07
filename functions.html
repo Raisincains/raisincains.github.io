@@ -1,18 +1,22 @@
 <body>
 print("Raisincains Functions Loaded.")
-	function newchatpink()
-	
-	  chatwindow = game:GetService("TextChatService").ChatWindowConfiguration
-	  bubblechatwindow = game:GetService("TextChatService").BubbleChatConfiguration
-	  chatinputbar = game:GetService("TextChatService").ChatInputBarConfiguration
-	  chatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
-	  chatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
-	  chatwindow.TextStrokeTransparency = 0.6
-	  bubblechatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
-	  bubblechatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
-	  chatinputbar.BackgroundColor3 = Color3.fromRGB(172, 143, 176)
-	
-	end
+
+function pinkuinew()
+chatwindow = game:GetService("TextChatService").ChatWindowConfiguration
+bubblechatwindow = game:GetService("TextChatService").BubbleChatConfiguration
+chatinputbar = game:GetService("TextChatService").ChatInputBarConfiguration
+chatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
+chatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
+chatwindow.TextStrokeTransparency = 0.6
+bubblechatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
+bubblechatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
+chatinputbar.BackgroundColor3 = Color3.fromRGB(172, 143, 176)
+for i, v in pairs(game:GetService("CoreGui").RobloxGui.Backpack:GetChildren()) do
+v.BackgroundColor3 = Color3.fromRGB(172, 143, 176)
+end
+game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Search.BackgroundColor3 = Color3.fromRGB(172, 143, 176)
+end
+pinkuinew()
 	
 	function usedcarbatteryplaycoins
 		local head = game.Players.LocalPlayer.Character.Head
