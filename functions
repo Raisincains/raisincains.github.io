@@ -1,45 +1,48 @@
-<head></head>
-<body>
---functions i just wanna put in a loadstring yknow
-print("Raisincains Functions Loaded.")
-function newchatpink()
+<html>
 
-  chatwindow = game:GetService("TextChatService").ChatWindowConfiguration
-  bubblechatwindow = game:GetService("TextChatService").BubbleChatConfiguration
-  chatinputbar = game:GetService("TextChatService").ChatInputBarConfiguration
-  chatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
-  chatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
-  chatwindow.TextStrokeTransparency = 0.6
-  bubblechatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
-  bubblechatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
-  chatinputbar.BackgroundColor3 = Color3.fromRGB(172, 143, 176)
-
-end
-
-function usedcarbatteryplaycoins
-	local head = game.Players.LocalPlayer.Character.Head
-  	while wait() do
-  		for i, v in pairs(game:GetService("Workspace").coinspawner:GetDescendants()) do
-  			if v.Name == "TouchInterest" and v.Parent then
-  				firetouchinterest(head, v.Parent, 0)
-  				wait(0.1)
-  				firetouchinterest(head, v.Parent, 1)
-    			end
-    		end
-    	end
-    end
-end
-
-function highlightpart(path,r,g,b,bool)
-    local highlight = Instance.new('Highlight', path)
-    highlight.FillColor = Color3.fromRGB(r,g,b)
-    
-    if bool == false then
-    highlight.OutlineTransparency = 1
-    else
-    highlight.OutlineTransparency = 0
-    end
-end 
-
-
-</body>
+	<head></head>
+	<body>
+	--functions i just wanna put in a loadstring yknow
+	print("Raisincains Functions Loaded.")
+	function newchatpink()
+	
+	  chatwindow = game:GetService("TextChatService").ChatWindowConfiguration
+	  bubblechatwindow = game:GetService("TextChatService").BubbleChatConfiguration
+	  chatinputbar = game:GetService("TextChatService").ChatInputBarConfiguration
+	  chatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
+	  chatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
+	  chatwindow.TextStrokeTransparency = 0.6
+	  bubblechatwindow.BackgroundColor3 = Color3.fromRGB(255, 216, 248)
+	  bubblechatwindow.TextColor3 = Color3.fromRGB(255, 98, 227)
+	  chatinputbar.BackgroundColor3 = Color3.fromRGB(172, 143, 176)
+	
+	end
+	
+	function usedcarbatteryplaycoins
+		local head = game.Players.LocalPlayer.Character.Head
+	  	while wait() do
+	  		for i, v in pairs(game:GetService("Workspace").coinspawner:GetDescendants()) do
+	  			if v.Name == "TouchInterest" and v.Parent then
+	  				firetouchinterest(head, v.Parent, 0)
+	  				wait(0.1)
+	  				firetouchinterest(head, v.Parent, 1)
+	    			end
+	    		end
+	    	end
+	    end
+	end
+	
+	function highlightpart(path,r,g,b,bool)
+	    local highlight = Instance.new('Highlight', path)
+	    highlight.FillColor = Color3.fromRGB(r,g,b)
+	    
+	    if bool == false then
+	    highlight.OutlineTransparency = 1
+	    else
+	    highlight.OutlineTransparency = 0
+	    end
+	end 
+	
+	
+	</body>
+</html>
