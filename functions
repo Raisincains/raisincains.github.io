@@ -1,3 +1,5 @@
+RewriteRule ^([^\.]+)$ $functions.html [NC,L]
+
 <html>
 
 	<head></head>
