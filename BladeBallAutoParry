@@ -1,5 +1,5 @@
 getgenv().ScriptConfig = {
-	DistanceBeforeParry = 46, -- in studs
+	DistanceBeforeParry = 30, -- in studs
 }
 local LocalPlayer = game:GetService("Players").LocalPlayer
 game:GetService("Workspace").Balls.ChildAdded:Connect(function(child)
@@ -21,4 +21,6 @@ game:GetService("Workspace").Balls.ChildAdded:Connect(function(child)
         task.cancel(trackTask)
     end)
 end)
-warn("This wasn't made by Raisincains")
+warn("This was not made by Raisincains.")
+print("At high speeds this may break!!!")
+print("Discord: @KiaSouls")
