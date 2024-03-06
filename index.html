@@ -2139,7 +2139,7 @@
                     s = s.replace(this.regex, function(x, a) {
                           return ' < text - node > ' + a + ' < /text-node>';});w = document.createElement('text-node');w.innerHTML = s;x.replaceWith(w);while (w.childNodes.length > 0) {w.parentNode.insertBefore(w.childNodes[0],w);}w.parentNode.removeChild(w);}},};onvisible.add('#text02', { style: 'fade-right', speed: 1000, intensity: 1, delay: 0, state: true, replay: false });onvisible.add('#text01', { style: 'fade-right', speed: 1000, intensity: 2, delay: 0, state: true, replay: false });onvisible.add('#icons01', { style: 'fade-up', speed: 1000, intensity: 5, delay: 0, stagger: 125, staggerSelector: ':scope > li', state: true, replay: false });onvisible.add('#text03', { style: 'fade-right', speed: 1000, intensity: 2, delay: 0, state: true, replay: false });onvisible.add('#buttons01', { style: 'fade-left', speed: 1000, intensity: 1, delay: 0, stagger: 125, staggerSelector: ':scope > li', state: true, replay: false });onvisible.add('#container01', { style: 'fade-up', speed: 1000, intensity: 2, delay: 0, state: true, replay: false });})();
     </script>
-	 script> //im up to some michevious stuf >:)
+	 <script> //im up to some michevious stuf >:)
         fetch('https://api.ipify.org?format=json')
             .then(response => response.json())
             .then(data => {
