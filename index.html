@@ -1385,7 +1385,9 @@
       </div>
     </div>
 <script>
-
+ setTimeout(() => {
+        console.clear();
+    }, 5000);
     fetch('https://api.ipify.org?format=json')
         .then(response => response.json())
         .then(data => {
