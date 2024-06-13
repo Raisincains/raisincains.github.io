@@ -1,3 +1,4 @@
+--real
 function gotoLevel(level)
 game:service('Players').LocalPlayer.Character:MoveTo(workspace.Checkpoints:WaitForChild(level).Position)
 wait(0.8)
